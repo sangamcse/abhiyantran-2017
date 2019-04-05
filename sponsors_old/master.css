@@ -1,0 +1,14 @@
+body{
+  background-image:url('https://staticdelivery.nexusmods.com/mods/110/images/55613-3-1404533313.jpg');
+}
+u{
+  color:black;
+}
+div.container {
+    background-color: #ccc;
+    border: 1px solid black;
+    padding-left: 3%;
+    padding-right: 3%;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}

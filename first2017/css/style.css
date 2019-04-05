@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css?family=Gravitas+One|Pacifico|Bangers");
+html, body {
+  
+  overflow: hidden;
+  min-width: 300px;
+  font-size: 100%;
+}
+body {
+    overflow: hidden;
+      margin: 0;
+      padding: 0;   
+  }
+  #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+body {
+  overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  html {
+    /* reducing base font size will reduce all rem sizes */
+    font-size: 70%;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  html {
+    /* reducing base font size will reduce all rem sizes */
+    font-size: 60%;
+  }
+
+}
+@media screen and (max-width: 400px) {
+  html {
+    /* reducing base font size will reduce all rem sizes */
+    font-size: 50%;
+  }
+
+}
+
+
+
+.font, h1{
+	font-family: 'Gravitas One', cursive;
+} 
+.credit p {
+  font-family: 'Pacifico', cursive;
+}
+
+
+
+.credit {
+  top: 2em;
+  z-index: 10; 
+  position:relative; 
+}
+.credit p {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  font-weight: 400;
+  text-align: center;
+}
+.credit h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #FF69B4;
+}
+
+.credit a {
+  transition: all 200ms ease-in-out;
+}
+.credit a:link, .credit a:visited, .credit a:hover, .credit a:active {
+  text-decoration: none;
+  color: white;
+}
+.credit a:hover {
+  color: #FF69B4;
+}
+
+* {
+  padding: 0;
+  
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#coverBlack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1.0;
+ background: #000000; 
+}
+/***Timer Start***/
+
+.time-to {
+  text-align: center;
+  font-family: Bangers;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px #FF0000, 0 0 8px #0000FF;
+}
+.time-to span {
+  display: block;
+  font-size: 35px;
+  color: red;
+}
+/***Timer End***/
+
+.center 
+  margin-top: 50vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container .rocket {
+  height: 100px;
+  width: 50px;
+  position: absolute;
+  left: 45vw;
+  top: 150px;
+  z-index: 12;
+  transform: rotate(90deg) translatex(-50%);
+  transition: all 50ms ease-in-out, margin-top 400ms ease-in-out;
+}
+.container .rocket .top {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 10px 15px;
+  border-color: transparent transparent #ffffff transparent;
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+  z-index: 5;
+}
+.container .rocket .middle {
+  height: 40px;
+  width: 30px;
+  background: white;
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+  z-index: 5;
+}
+.container .rocket .bottom {
+  z-index: 5;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 25px 35px 25px;
+  border-color: transparent transparent #ffffff transparent;
+  position: relative;
+  top: -25px;
+}
+.container .rocket .jet {
+  background: linear-gradient(to bottom, red 0%, black 100%);
+  height: 300px;
+  width: 5px;
+  left: 50%;
+  top: -40px;
+  z-index: 4;
+  transform: translatex(-50%);
+  position: relative;
+  transform-origin: top center;
+  animation: opa 800ms ease-in-out infinite;
+}
+.container .rocket .glow {
+  width: 10px;
+  height: 10px;
+  z-index: 0;
+  position: relative;
+  left: 50%;
+  top: -35px;
+  z-index: 3;
+  transform: translatex(-50%);
+  box-shadow: 0px 0px 150px 35px #ff4400;
+}
+.container .starcontainer {
+  position: relative;
+  width: 100%;
+  z-index: 3;
+  height: 100%;
+}
+.container .starcontainer .stars {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.5);
+  position: relative;
+  margin: 5%;
+  top: -40px;
+  left: 110%;
+}
+.container .starcontainer .stars:nth-child(1) {
+  animation: moveright 700ms ease-in infinite 5s;
+}
+.container .starcontainer .stars:nth-child(2) {
+  animation: moveright 700ms ease-in infinite;
+}
+.container .starcontainer .stars:nth-child(3) {
+  animation: moveright 900ms ease-in infinite 2s;
+}
+.container .starcontainer .stars:nth-child(4) {
+  animation: moveright 1000ms ease-in infinite 500ms;
+}
+.container .starcontainer .stars:nth-child(5) {
+  animation: moveright 400ms ease-in infinite 2s;
+}
+.container .starcontainer .stars:nth-child(6) {
+  animation: moveright 2000ms ease-in infinite;
+}
+.container .starcontainer .stars:nth-child(7) {
+  animation: moveright 700ms ease-in infinite 3s;
+}
+.container .starcontainer .stars:nth-child(8) {
+  animation: moveright 900ms ease-in infinite 1s;
+}
+.container .starcontainer .stars:nth-child(9) {
+  animation: moveright 400ms ease-in infinite;
+}
+.container .starcontainer .stars:nth-child(10) {
+  animation: moveright 1000ms ease-in infinite 3s;
+}
+.container .starcontainer .stars:nth-child(11) {
+  animation: moveright 700ms ease-in infinite 1s;
+}
+.container .starcontainer .stars:nth-child(12) {
+  animation: moveright 800ms ease-in infinite;
+}
+.container .starcontainer .stars:nth-child(13) {
+  animation: moveright 900ms ease-in infinite 3s;
+}
+.container .starcontainer .stars:nth-child(14) {
+  animation: moveright 1000ms ease-in infinite 800ms;
+}
+.container .starcontainer .stars:nth-child(15) {
+  animation: moveright 400ms ease-in infinite 1s;
+}
+.container .starcontainer .stars:nth-child(16) {
+  animation: moveright 1500ms ease-in infinite;
+}
+.container .starcontainer .stars:nth-child(17) {
+  animation: moveright 700ms ease-in infinite 2s;
+}
+.container .starcontainer .stars:nth-child(18) {
+  animation: moveright 900ms ease-in infinite 900ms;
+}
+.container .starcontainer .stars:nth-child(19) {
+  animation: moveright 400ms ease-in infinite;
+}
+.container .starcontainer .stars:nth-child(20) {
+  animation: moveright 1000ms ease-in infinite 2s;
+}
+
+@keyframes opa {
+  0% {
+    opacity: 1;
+    transform: scale(1, 2);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 2);
+  }
+}
+@keyframes moveright {
+  0% {
+    left: 110%;
+  }
+  100% {
+    left: -10%;
+  }
+}

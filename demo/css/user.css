@@ -1,0 +1,43 @@
+body{
+    overflow-x:hidden;
+}
+#nav {
+    margin-left:30%;
+}
+div{
+    color:white;
+}
+.parallax {
+    vertical-align:center;
+    color:white;
+    /* The image used */
+    background-image: url("../images/constellation.jpg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 {
+    color:white;
+
+    /* The image used */
+    background-image: url("../images/images/header.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.height-200{
+    background-image: url("../images/images/header.jpg");
+    min-height:200px;
+}

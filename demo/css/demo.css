@@ -1,0 +1,154 @@
+html, body, div {
+  overflow-x: hidden;
+  overflow-y:hidden;
+  color:white;
+}
+
+/* Lists */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+#container {
+  position: relative;
+  padding: 20px 40px;
+  padding-top: 80px;
+}
+
+/* Menu Button */
+.menu-btn {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 30px;
+  background: rgba(0,0,0,0.1);
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  border: 0px;
+}
+.menu-btn:hover {
+  opacity: 0.6;
+}
+
+/* Header */
+.site-header {
+  position: fixed;
+  #background: #000;
+  color: #FFF;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 9998;
+}
+
+/* Footer */
+.site-footer {
+  position: relative;
+  border-top: 1px solid #EEE;
+  color: #999;
+  padding: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/*# sourceMappingURL=demo.css.map */
+
+/* --------------------------------------------------------------------- */
+/*   User CSS    */
+/* --------------------------------------------------------------------- */
+
+header{
+  background-image: url("../images/abhi.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+}
+#container{
+  min-height:500px;
+  background-image: url("../images/medium-res.f2e47092.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+ul li{
+    padding:0px 3px 0px 2px;
+    display:inline;
+    -webkit-transition: font-size 2s, letter-spacing 1s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 1.5s, letter-spacing 1s;
+}
+
+ul li:hover{
+    letter-spacing:2px;
+    font-size:20px;
+    text-decoration:none;
+}
+
+
+
+
+/*    Blinking Letters */
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+  #font-size: 50px;
+  #width: 70%;
+}
+
+.blinking-cursor {
+  display: none;
+  font-weight: 100;
+  font-size: 70px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}

@@ -1,0 +1,728 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Abhiyantran 2K15</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="../js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="../css/custom.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="../css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="../css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+	 <div id="loader">
+     <div id="loading"></div>
+    </div> 
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header"> 
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>  
+							<li><a href="#register" class="button special scrolly">Register</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Events</h2>
+							<p>Amazing events @ Abhiyantran 2K15<br />
+							You just can't afford to miss them.</p>
+						</header>
+						<span class="image"><img src="images/website.jpg" alt="" /></span>
+						<br><br><br><br><br>
+						<ul class="actions fit">
+											<li><a href="#cse" class="button special fit scrolly">CSE Events</a></li>
+											<li><a href="#ece" class="button fit scrolly">ECE + EEE Events</a></li>
+											<li><a href="#ce" class="button special fit scrolly">CE + ME Events</a></li>
+											<li><a href="#mixed" class="button fit scrolly">Mixed Bowl</a></li>
+						</ul>
+					</div>
+				</section>
+
+			<!-- CSE  -->
+				<section id="cse" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/cse.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header> 
+										</ul>
+										<ul class="actions vertical">
+											<li><a href="#codex" class="button fit scrolly">Code-It</a></li> 
+										</ul>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<ul class="actions vertical"> 
+											<li><a href="#hackathon" class="button fit scrolly">Hackathon</a></li>
+										</ul>
+										<ul class="actions vertical"> 
+											<li><a href="#banner" class="button small special fit scrolly">Move Up</a></li>
+										</ul>
+								</div>
+								
+								<div class="4u$ 12u$(medium)">
+									<p>Amazing CSE Events that will take coding to the NEXT LEVEL.<br>
+									So all the Coders, come and join the league.
+									</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#codex" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Codex -->
+				<section id="codex" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/codeit.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Code-It</h2>
+							<p>'Code-It' is the event to nail if you are a coding geek!!</p>
+						</header>
+						<p>
+							Date : November 15, 2015<br>
+							Venue : Computer Lab-1<br>
+							Organizer : Saroj Sharma<br>
+							+91 956 393 6369<br>
+							<a class="mail" href="mailto:b130011cs@nitsikkim.ac.in" style="text-decoration:none; color:white; ">b130011cs@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#cse" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#hackathon" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Hackathon -->
+				<section id="hackathon" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/hackathon.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>HACKATHON</h2>
+							<p>The ultimate destination to land for coders! </p>
+						</header>
+						<p>
+							Date : November 14, 2015<br>
+							Venue : Online Event<br>
+							Organizer : Vishal Sharma<br>
+							+91 960 944 9679<br> 
+							<a class="mail" href="mailto:b130023cs@nitsikkim.ac.in" style="text-decoration:none; color:white">b130023cs@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#cse" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#ece" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Ece -->
+				<section id="ece" class="spotlight style2 bottom">
+					<span class="image fit main"><img src="images/ece.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header> 
+										</ul>
+										<ul class="actions vertical">
+											<li><a href="#oscilloscope" class="button  fit scrolly">Oscilloscope Drawing</a></li> 
+											<li><a href="#circuitdebug" class="button fit scrolly">Circuit Debugging</a></li> 
+											<li><a href="#robohustle" class="button  fit scrolly">Robo Hustle</a></li> 
+										</ul>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<ul class="actions vertical"> 
+											<li><a href="#linefollower" class="button fit scrolly">Line Follower</a></li>
+											<li><a href="#blackbox" class="button fit scrolly">Black Box</a></li>
+											<li><a href="#banner" class="button special small fit scrolly">Move Up</a></li>
+										</ul>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>With great power comes great responsibility,<br>
+										and sometimes a shock !
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#oscilloscope" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- oscilloscope -->
+				<section id="oscilloscope" class="spotlight style3 right">
+					<span class="image fit main"><img src="images/oscilloscope.jpg" alt="" /></span>
+					<div class="content">
+						<header
+							<h2>Oscilloscope Drawing</h2>
+							<p>Draw your imagination on Oscilloscope.</p>		
+						</header>
+						 <p>
+							Date : November 14, 2015<br>
+							Venue : Electronics Lab<br>
+							Organizer : Gunjan Bhardwaj<br>
+							+91 811 629 3115<br> 
+							<a class="mail" href="mailto:b130062@nitsikkim.ac.in" style="text-decoration:none; color:white">b130062@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#ece" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#circuitdebug" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- circuitdebug -->
+				<section id="circuitdebug" class="spotlight style4 left">
+					<span class="image fit main bottom"><img src="images/circuitdebug.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Circuit Debugging</h2>
+							<p>They say system never has bugs, it just develop random features.</p>
+						</header>
+						<p>
+							Date : November 15, 2015<br>
+							Venue : Electronics Lab<br>
+							Organizer : P. Bhargav<br>
+							+91 963 500 9331<br> 
+							<a class="mail" href="mailto:porapubhargav@gmail.com" style="text-decoration:none; color:white">porapubhargav@gmail.com</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#ece" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#robohustle" class="goto-next scrolly">Next</a>
+				</section>
+
+						<!-- robohustle -->
+				<section id="robohustle" class="spotlight style5 right">
+					<span class="image fit main"><img src="images/robohustle.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Robo-Hustle</h2>
+							<p>Assemble - Deploy - Conquer</p>
+						</header>
+						<p>
+							Date : November 16, 2015<br>
+							Venue : Volley-ball Ground<br>
+							Organizer : Animesh Raj<br>
+							+91 811 629 7846<br> 
+							<a class="mail" href="mailto:b130048@nitsikkim.ac.in" style="text-decoration:none; color:white">b130048@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#ece" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#linefollower" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- linefollower -->
+				<section id="linefollower" class="spotlight style4 left">
+					<span class="image fit main bottom"><img src="images/linefollower.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Line Follower</h2>
+							<p>The Line says : Follow-Me</p>
+						</header>
+						<p>
+							Date : November 13, 2015<br>
+							Venue : MP Hall<br>
+							Organizer : Animesh Raj<br>
+								+91 811 629 7846<br> 
+							<a class="mail" href="mailto:b130048@nitsikkim.ac.in" style="text-decoration:none; color:white">b130048@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#ece" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#blackbox" class="goto-next scrolly">Next</a>
+				</section>
+
+						<!-- blackbox -->
+				<section id="blackbox" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/blackbox.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Black Box</h2>		
+							<p>It makes you realize your Engineering Potential</p>
+						</header>
+						 <p>
+							Date : November 14, 2015<br>
+							Venue : Electronics Lab<br>
+							Organizer : Animesh Raj<br>
+							+91 811 629 7846<br> 
+							<a class="mail" href="mailto:b130048@nitsikkim.ac.in" style="text-decoration:none; color:white">b130048@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#ece" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#ce" class="goto-next scrolly">Next</a>
+				</section>
+				
+				
+				<!-- Ce  -->
+				<section id="ce" class="spotlight style2 bottom">
+					<span class="image fit main"><img src="images/civil.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header> 
+										</ul>
+										<ul class="actions vertical">
+											<li><a href="#bridge" class="button  fit scrolly">Bridge It</a></li> 
+										</ul>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<ul class="actions vertical"> 
+											<li><a href="#autocad" class="button fit scrolly">Auto CAD</a></li>
+											<li><a href="#banner" class="button special small fit scrolly">Move Up</a></li>
+										</ul>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>Amazing CSE Events that will take coding to the NEXT LEVEL.<br>
+									So all the Coders, come and join the league.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#bridge" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Bridge It -->
+				<section id="bridge" class="spotlight style5 right">
+					<span class="image fit main"><img src="images/bridgeit.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Bridge It</h2>
+							<p>How much can you BEAR !</p>
+						</header>
+						<p>
+							Date : November 13, 2015<br>
+							Venue : Badminton Court<br>
+							Organizer : Raman Jadiya<br>
+							+91 967 923 2228<br> 
+							<a class="mail" href="mailto:ramanjadiya@gmail.com" style="text-decoration:none; color:white">ramanjadiya@gmail.com</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#ce" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#autocad" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Autocad -->
+				<section id="autocad" class="spotlight style9 left">
+					<span class="image fit main bottom"><img src="images/autocad.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>AutoCAD Competition</h2>
+							<p>For the designers of tomorrow</p>
+						</header>
+						<p>
+							Date : November 14, 2015<br>
+							Venue : Computer Lab-1<br>
+							Organizer : Ramavtar Kumar<br>
+							+91 956 336 2915<br> 
+							<a class="mail" href="mailto:b130065@nitsikkim.ac.in" style="text-decoration:none; color:white">b130065@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#ce" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#mixed" class="goto-next scrolly">Next</a>
+				</section>
+
+				<!-- Mix -->
+				<section id="mixed" class="spotlight style10 bottom">
+					<span class="image fit main"><img src="images/mixed.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header> 
+										</ul>
+										<ul class="actions vertical">
+											<li><a href="#warofwords" class="button  fit scrolly">War of Words</a></li> 
+											<li><a href="#trashbar" class="button fit scrolly">Junkyard Wars</a></li> 
+											<li><a href="#quiz" class="button  fit scrolly">Tech-Quiz</a></li> 
+											<li><a href="#treasure" class="button fit scrolly">Treasure Hunt</a></li> 
+											<li><a href="#gameofphones" class="button  fit scrolly">Game of Phones</a></li>
+										</ul>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<ul class="actions vertical"> 
+											<li><a href="#snapatize" class="button fit scrolly">Snapatize</a></li>
+											<li><a href="#luv2dub" class="button  fit scrolly">Luv2Dub</a></li>
+											<li><a href="#nfs" class="button fit scrolly">NFS-LAN Gaming</a></li>
+											<li><a href="#counterstrike" class="button  fit scrolly">Counter Strike-LAN Gaming</a></li>
+											<li><a href="#banner" class="button special small fit scrolly">Move Up</a></li>
+										</ul>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>Amazing CSE Events that will take coding to the NEXT LEVEL.<br>
+									So all the Coders, come and join the league.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#warofwords" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- War of Words -->
+				<section id="warofwords" class="spotlight style11 right">
+					<span class="image fit main"><img src="images/warofwords.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>War of Words</h2>
+							<p>A war of words is still a WAR</p>
+						</header>
+						<p>
+							Date : November 13, 2015<br>
+							Venue : MP Hall<br>
+							Organizer : Ankit Kumar<br>
+							+91 705 268 9957<br> 
+							<a class="mail" href="mailto:b130053cs@nitsikkim.ac.in" style="text-decoration:none; color:white">b130053cs@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#mixed" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#trashbar" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Trashbar -->
+				<section id="trashbar" class="spotlight style1 left">
+					<span class="image fit main bottom"><img src="images/trashbar.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Junkyard Wars</h2>
+							<p>Jugaad From Kabaad</p>
+						</header>
+						<p>
+							Date : November 14, 2015<br>
+							Venue : Class Room-1<br>
+							Organizer : Anurag Gaur<br>
+							+91 867 036 1263<br> 
+							<a class="mail" href="mailto:b130064@nitsikkim.ac.in" style="text-decoration:none; color:white">b130064@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#mixed" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#quiz" class="goto-next scrolly">Next</a>
+				</section>
+
+						<!-- techquiz -->
+				<section id="quiz" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/quiz.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Tech Quiz</h2>
+							<p>Quiz It Out</p>
+						</header>
+						<p>
+							Date : November 16, 2015<br>
+							Venue : MP Hall<br>
+							Organizer : Ankur Jha<br>
+							+91 896 717 7036<br> 
+							<a class="mail" href="mailto:b130008@nitsikkim.ac.in" style="text-decoration:none; color:white">b130008@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#mixed" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#treasure" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Treasure Hunt -->
+				<section id="treasure" class="spotlight style7 left">
+					<span class="image fit main bottom"><img src="images/treasure.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Treasure Hunt</h2>
+							<p></p>
+						</header>
+						<p>
+							Date : November 16, 2015<br>
+							Venue : Whole Campus<br>
+							Organizer : Deepak Kumar<br>
+							+91 985 190 6910<br> 
+							<a class="mail" href="mailto:b130056@nitsikkim.ac.in" style="text-decoration:none; color:white">b130056@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#mixed" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#gameofphones" class="goto-next scrolly">Next</a>
+				</section>
+
+						<!-- game of phones -->
+				<section id="gameofphones" class="spotlight style8 right">
+					<span class="image fit main"><img src="images/mmm.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Game of Phones</h2>
+							<p>Mmm Fingers & 2048</p>
+						</header>
+						<p>
+							Date : November 14, 2015<br>
+							Venue : Computer Lab-1<br>
+							Organizer : Nishant Chaudhary<br>
+							+91 837 084 4721<br> 
+							<a class="mail" href="mailto:b130014@nitsikkim.ac.in" style="text-decoration:none; color:white">b130014@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#mixed" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#snapatize" class="goto-next scrolly">Next</a>
+				</section>
+				<!-- snapatize -->
+				<section id="snapatize" class="spotlight style6 left">
+					<span class="image fit main bottom"><img src="images/snapatize.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Snapatize</h2>
+							<p></p>
+						</header>
+						<p>
+							Date : November 13 to 16, 2015<br>
+							Venue : NIT Sikkim<br>
+							Organizer : Shivam Singh<br>
+							+91 709 821 4344<br> 
+							<a class="mail" href="mailto:b130005cs@nitsikkim.ac.in" style="text-decoration:none; color:white">b130005cs@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#mixed" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#luv2dub" class="goto-next scrolly">Next</a>
+				</section>
+
+						<!-- luv2dub -->
+				<section id="luv2dub" class="spotlight style4 right">
+					<span class="image fit main"><img src="images/luv2dub.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Luv 2 Dub</h2>				
+						</header>
+						<p>
+							Date : Online Event<br>
+							Venue : NIT Sikkim<br>
+							Organizer : Shivam Singh<br>
+							+91 709 821 4344<br> 
+							<a class="mail" href="mailto:b130005cs@nitsikkim.ac.in" style="text-decoration:none; color:white">b130005cs@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#mixed" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#nfs" class="goto-next scrolly">Next</a>
+				</section>
+				
+				<!-- NFS -->
+				<section id="nfs" class="spotlight style2 left">
+					<span class="image fit main bottom"><img src="images/nfs.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>NFS-LAN Gaming</h2>
+							<p> </p>
+						</header>
+						<p>
+							Date : November 14, 2015<br>
+							Venue : Computer Lab-1<br>
+							Organizer : Deepansh Rastogi<br>
+							+91 896 732 2747<br> 
+							<a class="mail" href="mailto:b130019cs@nitsikkim.ac.in" style="text-decoration:none; color:white">b130019cs@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#mixed" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#counterstrike" class="goto-next scrolly">Next</a>
+				</section>
+
+						<!-- counterstrike -->
+				<section id="counterstrike" class="spotlight style7 right">
+					<span class="image fit main"><img src="images/counterstrike.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Counter Strike-LAN Gaming</h2>				
+						</header>
+						<p></p>
+							Date : November 16, 2015<br>
+							Venue : Computer Lab-1<br>
+							Organizer : Suraj Shukla<br>
+							+91 985 173 1392<br> 
+							<a class="mail" href="mailto:b130035cs@nitsikkim.ac.in" style="text-decoration:none; color:white">b130035cs@nitsikkim.ac.in</a>
+						</p>
+						<ul class="actions">
+							<li><a href="http://facebook.com/abhiyantran" target="_blank" class="scrolly small fit button">Rules & Regulations</a></li>
+							<li><a href="#register" class="scrolly small fit button">Register</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="#mixed" class="scrolly small special fit button">Move Up</a></li>
+						</ul>
+					</div>
+					<a href="#register" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Register -->
+				<section id="register" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>Registration</h2>
+							<p>Get Register yourself for these Fantastic Events as soon as possible.Limited Seats!!!</p>
+						</header>
+						<form method="post" action="eventRegistration.php">
+									<div class="row uniform 50%">
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="name" id="name" value="" placeholder="Name" required=""/>
+										</div>
+										<div class="6u$ 12u$(xsmall)">
+											<input type="email" name="email" id="email" value="" placeholder="Email" required=""/>
+										</div>
+										<div class="12u$">
+											<div class="select-wrapper">
+												<select name="event" id="event" required="">
+													<option value="">- Select Event -</option>
+													<option value="1">Hackathon</option>
+													<option value="2">Code-It</option>
+													<option value="3">Oscilloscope Drawing</option>
+													<option value="4">Circuit Debugging</option>
+													<option value="5">Rat Race</option>
+													<option value="6">Line Follower</option>
+													<option value="7">Bridge It</option>
+													<option value="8">AutoCad</option>
+													<option value="9">Debate</option>
+													<option value="10">Trashbar</option>
+													<option value="11">Tech-Quiz</option>
+													<option value="12">Treasure-hunt</option>
+													<option value="13">LAN GAMNG-NFS</option>
+													<option value="14">LAN GAMNG-Counter Strike</option>
+													<option value="15">GAME OF PHONES-Mmm Finger</option>
+													<option value="16">GAME OF PHONES-2048</option>
+												</select>
+											</div>
+										</div>
+										
+										<div class="6u$ 12u$(medium)">
+											<input type="text" name="institute-name" id="institute-name" value="" placeholder="Institute Name" required="" />
+										</div>
+										<div class="6u$ 12u$(medium)">
+											<input type="text" name="number" id="number" value="" placeholder="Mobile" required="" />
+										</div>
+										<div class="12u$">
+											<ul class="actions">
+												<li><input type="submit" value="Register" class="special" /></li>
+												<li><input type="reset" value="Reset" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
+					</div>
+				</section>
+
+
+			<!-- Footer -->
+				<footer id="footer"> 
+							<a href="http://abhiyantran.nitsikkim.ac.in" class="special button  ">Back To Home</a>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="../js/jquery.min.js"></script>
+			<script src="../js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="../js/skel.min.js"></script>
+			<script src="../js/util.js"></script>
+			<!--[if lte IE 8]><script src="../js/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

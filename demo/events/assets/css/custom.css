@@ -1,0 +1,11 @@
+#reveal {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+input[type="radio"]:checked ~ #reveal,
+input[type="checkbox"]:checked ~ #reveal {
+  opacity: 1;
+  max-height: 100px; /* little bit of a magic number :( */
+  overflow: visible;
+}
